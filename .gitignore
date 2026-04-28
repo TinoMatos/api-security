@@ -1,0 +1,20 @@
+# dependencies
+**/node_modules/
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+.vscode/mcp.json
+
+# logs and coverage
+*.log
+**/coverage/
+.nyc_output/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# accidental file created on Windows shells
+nul
